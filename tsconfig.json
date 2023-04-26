@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "target": "es2022",
+    "noEmit": true,
+    "moduleResolution": "nodenext"
+  },
+  "include": [ "*.ts", "./**/*.ts" ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "experimentalSpecifierResolution": "node",
+    "esm": true
+  }
+}

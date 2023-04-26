@@ -1,0 +1,23 @@
+{
+  "name": "realm-chat-example",
+  "version": "1.0.0",
+  "description": "CLI chat with readline and realm",
+  "author": "Dan",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "realm": "^11.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "@types/realm": "^1.13.0",
+    "eslint": "^8.39.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "start": "npx ts-node ./src/index.ts"
+  },
+  "private": true
+}
