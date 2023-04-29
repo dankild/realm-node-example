@@ -5,11 +5,14 @@
         },
         "text": {
             "bsonType": "string"
+        },
+        "title": {
+            "bsonType": "string"
         }
     },
     "required": [
         "_id",
-        "text"
+        "title"
     ],
     "title": "Message",
     "type": "object"
