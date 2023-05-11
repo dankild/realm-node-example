@@ -12,6 +12,7 @@
     },
     "required": [
         "_id",
+        "title",
         "text"
     ],
     "title": "Message",
