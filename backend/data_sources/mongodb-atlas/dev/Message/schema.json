@@ -5,9 +5,6 @@
         },
         "text": {
             "bsonType": "string"
-        },
-        "title": {
-            "bsonType": "string"
         }
     },
     "required": [
