@@ -12,7 +12,8 @@
     },
     "required": [
         "_id",
-        "title"
+        "title",
+        "text"
     ],
     "title": "Message",
     "type": "object"
